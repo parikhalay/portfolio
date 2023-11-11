@@ -37,9 +37,10 @@ const about = () => {
             </article>
           </div>
 
-          <p className='about__text'>I am in last year of my B.E. in Computer Engineering. 
-          I have been learning and doing projects & designs since more than a year.
-          Also, I am open to new projects in which I can showcase my skillset and give the best quality required. </p>
+          <p className='about__text'>Welcome to my portfolio highlighting my pursuit of a Master's in Applied Computer Science at Concordia University. 
+          Currently immersed in a dynamic program, I've delved into advanced topics such as algorithms, data structures, and artificial intelligence, equipping myself with a robust skill set in Python, Java, C++, data science, and machine learning.
+           Engaging in impactful research projects and internships has further refined my abilities, while active involvement in the university community underscores my commitment to collaboration and leadership. 
+           This journey not only solidifies my academic foundation but also fuels my enthusiasm for contributing innovative solutions to the ever-evolving landscape of computer science. </p>
 
           <a href='#contact' className='btn btn-primary'>Let's Talk</a>
         </div>
