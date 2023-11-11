@@ -1,42 +1,35 @@
 import React from 'react'
 import './services.css'
-import {AiOutlineCheckCircle} from 'react-icons/ai'
+import {AiFillCaretRight} from 'react-icons/ai'
 const Services = () => {
   return (
     <section id='services'>
-      <h5>What I Offer</h5>
-      <h2>Services</h2>
+      <h5>What I have done</h5>
+      <h2>Internship Experience</h2>
 
       <div className="container services__container">
         <article className='service'>
           <div className='service__head'>
-            <h3>Front End Web Development</h3>
+            <h3>Full Stack Developer : Jan 2023 – April 2023</h3>
+            <h5>Tech Elecon Pvt. Ltd.</h5>
           </div>
 
           <ul className='service__list'>
             <li>
-            <AiOutlineCheckCircle className='service__list-icon' />
-            <p>Web Page Designs</p>
+            <AiFillCaretRight className='service__list-icon' size={25} />
+            <p>Orchestrated a team to revolutionize a client’s web platform, 
+            culminating in a 40% upsurge in mobile traffic and fortified
+            search engine rankings.</p>
             </li>
             <li>
-            <AiOutlineCheckCircle className='service__list-icon' />
-            <p>Usage of ReactJs, JavaScript and frameworks </p>
+            <AiFillCaretRight className='service__list-icon' size={23} />
+            <p>Engaged in stakeholder collaboration to delineate
+             project requisites and guarantee alignment with objectives.</p>
             </li>
             <li>
-            <AiOutlineCheckCircle className='service__list-icon' />
-            <p>Top Quality Adobe XD designs </p>
-            </li>
-            <li>
-            <AiOutlineCheckCircle className='service__list-icon' />
-            <p>Very Low Prices</p>
-            </li>
-            <li>
-            <AiOutlineCheckCircle className='service__list-icon' />
-            <p>Unlimited Reviews </p>
-            </li>
-            <li>
-            <AiOutlineCheckCircle className='service__list-icon' />
-            <p>Easy Sharing </p>
+            <AiFillCaretRight className='service__list-icon' size={40}/>
+            <p>Spearheaded the successful implementation of React, seamlessly translating design concepts into highly maintainable
+            code, resulting in an exceptional User Experience (UX) and reducing frontend development time by 40%.</p>
             </li>
           </ul>
         </article>
@@ -44,34 +37,26 @@ const Services = () => {
 
         <article className='service'>
           <div className='service__head'>
-            <h3>Video Editing</h3>
+            <h3>Web Application Developer : June 2022 – July 2022</h3>
+            <h5>Infolabz Pvt. Ltd.</h5>
           </div>
 
           <ul className='service__list'>
             <li>
-            <AiOutlineCheckCircle className='service__list-icon' />
-            <p>Adobe Premier Pro</p>
+            <AiFillCaretRight className='service__list-icon'  size={20}/>
+            <p>Engineered a comprehensive sports news web interface offering the latest updates, upcoming events, and results.</p>
             </li>
             <li>
-            <AiOutlineCheckCircle className='service__list-icon' />
-            <p>High Quality videos.</p>
+            <AiFillCaretRight className='service__list-icon' size={30}/>
+            <p>Orchestrated seamless integration of requisite APIs within the team, meeting project criteria; achieved a 40% reduction
+            in manual data entry and saved 20+ hours per week.
+            </p>
             </li>
             <li>
-            <AiOutlineCheckCircle className='service__list-icon' />
-            <p>Youtube Videos</p>
+            <AiFillCaretRight className='service__list-icon' size={20}/>
+            <p>Worked with different APIs to request for data and displayed by programming a webpage to give valuable information.</p>
             </li>
-            <li>
-            <AiOutlineCheckCircle className='service__list-icon' />
-            <p>At a very low cost </p>
-            </li>
-            <li>
-            <AiOutlineCheckCircle className='service__list-icon' />
-            <p> Unlimited Editings </p>
-            </li>
-            <li>
-            <AiOutlineCheckCircle className='service__list-icon' />
-            <p> As per your Deadline </p>
-            </li>
+            
             
           </ul>
         </article>
@@ -79,30 +64,22 @@ const Services = () => {
 
         <article className='service'>
           <div className='service__head'>
-            <h3>Graphic Designing</h3>
+            <h3>Graphic Designer : Nov 2022 – July 2023</h3>
+            <h5>Adare Food Ingredients Pvt. Ltd.</h5>
           </div>
 
           <ul className='service__list'>
             <li>
-            <AiOutlineCheckCircle className='service__list-icon' />
-            <p> All types of Designs </p>
+            <AiFillCaretRight className='service__list-icon ' size={30}/>
+            <p> Implemented coding knowledge in design projects, resulting in highly efficient and technically optimized visual content,
+                positively impacting project scalability and performance </p>
             </li>
             <li>
-            <AiOutlineCheckCircle className='service__list-icon service__list-icon1' />
-            <p>Newsletters, Advertisement,Social Media posts, Invitation Card, Youtube Thumbnails, etc </p>
+            <AiFillCaretRight className='service__list-icon' size={35}/>
+            <p>Led the redesign of multiple digital interfaces, implementing responsive design techniques based on computer science
+                principles, resulting in a 30% increase in user engagement and enhanced user experience.</p>
             </li>
-            <li>
-            <AiOutlineCheckCircle className='service__list-icon service__list-icon2' />
-            <p>Adobe Photoshop, Adobe Illustrator, Canva</p>
-            </li>
-            <li>
-            <AiOutlineCheckCircle className='service__list-icon' />
-            <p>Unlimited Reviews </p>
-            </li>
-            <li>
-            <AiOutlineCheckCircle className='service__list-icon' />
-            <p> Affordable rates </p>
-            </li>
+            
           </ul>
         </article>
         {/* END OF GRAPHIC DESIGNER */}

@@ -1,6 +1,6 @@
 .services__container {
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(1,1fr);
     gap: 3rem;
 }
 
@@ -29,6 +29,11 @@
     color: var(--color-bg);
      font-size: 1rem;
      text-align: center;
+}
+.service__head h5{
+    color: var(--color-bg-variant);
+    font-size: 1rem;
+    text-align: center;
 }
 
 .service__list{
