@@ -1,8 +1,8 @@
 import React from 'react'
 import './portfolio.css'
-import IMG1 from '../../assests/simon.png'
-import IMG2 from '../../assests/dice.png'
-import IMG3 from '../../assests/drum.png'
+import IMG1 from '../../assests/warzone.jpg'
+import IMG2 from '../../assests/emotion.jpg'
+import IMG3 from '../../assests/crypto.png'
 import IMG4 from '../../assests/todo.gif'
 import IMG5 from '../../assests/tin.gif'
 
@@ -10,45 +10,39 @@ const data = [
   {
     id:1,
     image: IMG1,
-    title:'Simon Game',
-    github:'https://github.com/parikhalay/simongame',
+    title:'Strategic Territory Control Simulation Game.',
+    github:'https://github.com/jenish-1990/Warzone-Game-APP-U12',
     demo:'https://dribble.com'
   },
   {
     id:2,
     image: IMG2,
-    title:'Dice Game',
-    github:'https://github.com/parikhalay/dicegame',
+    title:'Emotion Recognition Software',
+    github:'https://github.com/parikhalay/Emotion-Detection',
     demo:'https://dribble.com'
   },
   {
     id:3,
     image: IMG3,
-    title:'Drum kit',
-    github:'https://github.com/parikhalay/Drumkit',
+    title:'Cryptocurrency Web Application',
+    github:'https://github.com/parikhalay/Cryptocurrency-Web-Application',
     demo:'https://dribble.com'
   },
   {
     id:4,
     image: IMG4,
-    title:'To-do list',
-    github:'https://github.com/parikhalay/Todo-list',
+    title:'CareerConnect: Next-Generation Online Job Portal Platform',
+    github:'https://github.com/parikhalay/job_portal',
     demo:'https://dribble.com'
   },
-  {
-    id:5,
-    image: IMG5,
-    title:'Tin Dog',
-    github:'https://github.com/parikhalay/Dogsite',
-    demo:'https://dribble.com'
-  }
+  
 ]
 
 const Portfolio = () => {
   return (
     <section id='portfolio'>
       <h5>My Recent Work</h5>
-      <h2>Portfolio</h2>
+      <h2>Projects</h2>
       <div className='container portfolio__container'>
         {
           data.map(({id,image,title,github,demo}) => {
