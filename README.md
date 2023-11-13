@@ -11,14 +11,16 @@ I'm a tech enthusiast with a strong background in both front-end and back-end de
 
 Here are a few highlighted projects that demonstrate my skills and expertise:
 
-### Project 1: [Project Name]
-_Description_: Brief overview of the project, its purpose, and technologies used.
+### Project 1: Strategic Territory Control Simulation Game 
+_Description_: The Connected Graph War Simulator offers a strategic and dynamic gaming experience where players navigate a customizable world map, deploying armies, issuing various orders, and drawing cards to influence the course of the game. With a focus on strategic decision-making, diplomacy, and dynamic challenges, players must outmaneuver opponents to achieve global dominance in this thrilling war simulation.
+The Technologies used are Java, IntelliJ Idea, Junit Test,Javadocs, MVC architecture.
 
-### Project 2: [Project Name]
-_Description_: Brief overview of the project, its purpose, and technologies used.
-
-### Project 3: [Project Name]
-_Description_: Brief overview of the project, its purpose, and technologies used.
+### Project 2: Emotion Recognition Software
+_Description_: Our project, an AI-Enhanced Student Engagement Monitoring System, revolutionizes the educational landscape by providing instructors with real-time insights into student engagement.Gone are the days of instructors navigating the darkness of student understanding; our system examines facial responses to distinguish between curiosity, comprehension, and confusion. The sleek design ensures immediate insights for instructors, categorizing students as engaged, neutral, bored, or other states.
+The Technologies used are Python, Pycharm, Pytorch , Deep Learning, Neural Networks.
+### Project 3: Cryptocurrency Web Application
+_Description_: The Cryptocurrency Market Integration project is a comprehensive initiative aimed at enhancing the user experience and functionality of our platform by seamlessly incorporating live market data from diverse cryptocurrency sources. Leveraging RESTful APIs and WebSocket technology, we have created a dynamic ecosystem that provides users with real-time market prices and trading data, enabling informed decision-making and a more engaging trading experience.
+The Technologies used are React, JavaScript, Html/CSS , API, VS Code, GIT. 
 
 
 ## Skills
