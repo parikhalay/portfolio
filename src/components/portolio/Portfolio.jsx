@@ -3,8 +3,8 @@ import './portfolio.css'
 import IMG1 from '../../assests/warzone.jpg'
 import IMG2 from '../../assests/emotion.jpg'
 import IMG3 from '../../assests/crypto.png'
-import IMG4 from '../../assests/todo.gif'
-import IMG5 from '../../assests/tin.gif'
+import IMG4 from '../../assests/job.png'
+
 
 const data = [
   {
@@ -31,7 +31,7 @@ const data = [
   {
     id:4,
     image: IMG4,
-    title:'CareerConnect: Next-Generation Online Job Portal Platform',
+    title:'Online Job Portal Platform',
     github:'https://github.com/parikhalay/job_portal',
     demo:'https://dribble.com'
   },
