@@ -1,5 +1,5 @@
 import React from 'react'
-import './portfolio.css'
+import './projects.css'
 import IMG1 from '../../assests/warzone.jpg'
 import IMG2 from '../../assests/emotion.jpg'
 import IMG3 from '../../assests/crypto.png'
@@ -38,9 +38,9 @@ const data = [
   
 ]
 
-const Portfolio = () => {
+const Projects = () => {
   return (
-    <section id='portfolio'>
+    <section id='projects'>
       <h5>My Recent Work</h5>
       <h2>Projects</h2>
       <div className='container portfolio__container'>
@@ -68,4 +68,4 @@ const Portfolio = () => {
   )
 }
 
-export default Portfolio
+export default Projects

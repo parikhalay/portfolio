@@ -25,7 +25,7 @@ const Header = () => {
   return (
     <header>
       <div className="container header__container">
-        <h5>Hello there!</h5>
+        <h5>Bonjour!</h5>
         {/* <h1>Alay Parikh</h1> */}
         <h1>I'm <span ref={el}></span></h1>
         <CTA />
