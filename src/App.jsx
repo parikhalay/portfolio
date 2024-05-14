@@ -7,7 +7,7 @@ import Projects from './components/projects/Projects'
 import GraphicDesign from './components/GraphicDesign/GraphicDesign'
 import Contact from './components/contact/Contact'
 import Footer from './components/footer/Footer'
-import Experience from './components/Experience/Experience'
+import Experience from './components/experience/Experience'
 
 
 const App = () => {
