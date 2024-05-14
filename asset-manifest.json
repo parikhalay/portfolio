@@ -1,29 +1,37 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.7c3ebb45.css",
-    "main.js": "/portfolio/static/js/main.707db423.js",
+    "main.css": "/portfolio/static/css/main.09061be1.css",
+    "main.js": "/portfolio/static/js/main.17bd7479.js",
     "static/media/emotion.jpg": "/portfolio/static/media/emotion.4716bd28bddb53c61d06.jpg",
     "static/media/about-image.png": "/portfolio/static/media/about-image.818b741f68337c5b7e87.png",
     "static/media/user.png": "/portfolio/static/media/user.d064a65418ef738545ab.png",
-    "static/media/img-4.png": "/portfolio/static/media/img-4.d48c14ac1d1841d8815e.png",
+    "static/media/img-16.png": "/portfolio/static/media/img-16.d48c14ac1d1841d8815e.png",
     "static/media/img-2.jpg": "/portfolio/static/media/img-2.e377748be00488661a57.jpg",
     "static/media/job.png": "/portfolio/static/media/job.429459212435df9d7077.png",
-    "static/media/img-5.jpg": "/portfolio/static/media/img-5.964e8e7fac689e12b658.jpg",
-    "static/media/img-7.jpg": "/portfolio/static/media/img-7.a92c89e09c963b1d2d7f.jpg",
-    "static/media/img-9.jpg": "/portfolio/static/media/img-9.e01ea82c7c61a48495d8.jpg",
-    "static/media/img-6.png": "/portfolio/static/media/img-6.7e74234b20ba0e0b63ce.png",
+    "static/media/img-14.jpg": "/portfolio/static/media/img-14.e01ea82c7c61a48495d8.jpg",
+    "static/media/img-5.png": "/portfolio/static/media/img-5.20d8cd64436e639b5d02.png",
+    "static/media/img-15.jpg": "/portfolio/static/media/img-15.6145c1433d5dcd0dfbda.jpg",
+    "static/media/img-9.jpg": "/portfolio/static/media/img-9.620fc2f5fe1d813a8aa9.jpg",
+    "static/media/img-8.png": "/portfolio/static/media/img-8.d24321d3754547ef69c1.png",
+    "static/media/img-7.png": "/portfolio/static/media/img-7.57f924d4affcaceb4900.png",
     "static/media/img-1.png": "/portfolio/static/media/img-1.18c61ec5489acb50eff5.png",
-    "static/media/img-8.jpg": "/portfolio/static/media/img-8.f369600b3e7320c4dcf0.jpg",
+    "static/media/img-17.jpg": "/portfolio/static/media/img-17.f369600b3e7320c4dcf0.jpg",
+    "static/media/img-13.png": "/portfolio/static/media/img-13.043297ed61865a4a0860.png",
+    "static/media/img-6.png": "/portfolio/static/media/img-6.327a807e6c6f36b0414a.png",
+    "static/media/img-12.png": "/portfolio/static/media/img-12.eb30cf8b6f3d982e1ae6.png",
+    "static/media/img-4.png": "/portfolio/static/media/img-4.1126a4486149bc466afc.png",
+    "static/media/img-11.png": "/portfolio/static/media/img-11.0b032b4b6b521f2bd53e.png",
     "static/media/img-3.png": "/portfolio/static/media/img-3.8119b1b1a85d409fd51c.png",
+    "static/media/img-10.png": "/portfolio/static/media/img-10.36e60bb180c2552e8909.png",
     "static/media/warzone.jpg": "/portfolio/static/media/warzone.40a75f27d6679bee9e8f.jpg",
     "static/media/Resume.pdf": "/portfolio/static/media/Resume.fb0faf3ec5e65358c764.pdf",
     "static/media/crypto.png": "/portfolio/static/media/crypto.27a92f0c01bd61f1c0e3.png",
     "index.html": "/portfolio/index.html",
-    "main.7c3ebb45.css.map": "/portfolio/static/css/main.7c3ebb45.css.map",
-    "main.707db423.js.map": "/portfolio/static/js/main.707db423.js.map"
+    "main.09061be1.css.map": "/portfolio/static/css/main.09061be1.css.map",
+    "main.17bd7479.js.map": "/portfolio/static/js/main.17bd7479.js.map"
   },
   "entrypoints": [
-    "static/css/main.7c3ebb45.css",
-    "static/js/main.707db423.js"
+    "static/css/main.09061be1.css",
+    "static/js/main.17bd7479.js"
   ]
 }
