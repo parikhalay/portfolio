@@ -21,19 +21,25 @@ const about = () => {
         <div className="about__content">
           <div className="about__cards">
             <article className='about__card'>
+            <a href='#experience'>
               <FaAward className='about__icon' />
               <h5>Experience</h5>
               <small>1+ Years in Internships & Projects</small>
+            </a>
             </article>
             <article className='about__card'>
+            <a href='#experience'>
               <FiUsers className='about__icon' />
               <h5>Internships</h5>
               <small>3 Internships</small>
-            </article>
+              </a>
+              </article>
             <article className='about__card'>
+            <a href='#projects'>
               <BsFolder2Open className='about__icon' />
               <h5>Projects</h5>
               <small>5+ Completed</small>
+              </a>
             </article>
           </div>
 

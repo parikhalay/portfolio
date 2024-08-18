@@ -10,20 +10,27 @@ const Experience = () => {
       <div className="container experiences__container">
       <article className='experience'>
           <div className='experience__head'>
-            <h3>Software Developer : May 2024 – Present</h3>
-            <h5>Iminoimi Technology Inc.</h5>
+            <h3>Software Developer : April 2024 – June 2024</h3>
+            <h5>Iminoimi Technology Inc. (Montreal, Canada)</h5>
           </div>
 
           <ul className='experience__list'>
 
             <li>
             <AiFillCaretRight className='experience__list-icon' size={25} />
-            <p> Implemented seamless integration of AI models with frontend technologies, utilizing React.js and RESTful APIs. Ensured real-time data processing and interactive user interfaces for enhanced user engagement.</p>
+            <p> Spearheaded development and maintenance of web applications using React, ensuring the delivery of responsive and
+            user-friendly interfaces.</p>
             </li>
 
             <li>
             <AiFillCaretRight className='experience__list-icon' size={25} />
-            <p>Enhanced application features by integrating AI-driven functionalities, such as recommendation systems, natural language processing (NLP) for chatbots, and predictive analytics. Focused on delivering intuitive and user-friendly experiences.</p>
+            <p>Expertly managed API life cycle, seamlessly integrating and optimizing endpoints to streamline data communication and
+            enhance operational efficiency.</p>
+            </li>
+            <li>
+            <AiFillCaretRight className='experience__list-icon' size={25} />
+            <p>Coordinated in-depth research into diverse models and integration methodologies using Python, contributing to
+            heightened application functionality and performance.</p>
             </li>
           </ul>
         </article>
@@ -32,7 +39,7 @@ const Experience = () => {
         <article className='experience'>
           <div className='experience__head'>
             <h3>Full Stack Developer : Jan 2023 – April 2023</h3>
-            <h5>Tech Elecon Pvt. Ltd.</h5>
+            <h5>Tech Elecon Pvt. Ltd. (Anand, India)</h5>
           </div>
 
           <ul className='experience__list'>
@@ -59,7 +66,7 @@ const Experience = () => {
         <article className='experience'>
           <div className='experience__head'>
             <h3>Web Application Developer : June 2022 – July 2022</h3>
-            <h5>Infolabz Pvt. Ltd.</h5>
+            <h5>Infolabz Pvt. Ltd. (Ahmedabad, India)</h5>
           </div>
 
           <ul className='experience__list'>
@@ -86,7 +93,7 @@ const Experience = () => {
         <article className='experience'>
           <div className='experience__head'>
             <h3>Graphic Designer : Nov 2022 – July 2023</h3>
-            <h5>Adare Food Ingredients Pvt. Ltd.</h5>
+            <h5>Adare Food Ingredients Pvt. Ltd. (Anand, India)</h5>
           </div>
 
           <ul className='experience__list'>
