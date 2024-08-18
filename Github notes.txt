@@ -1,0 +1,26 @@
+To update github Pages and portfolio
+
+Step 1: Commit Changes
+Before redeploying, ensure that you’ve committed all the changes in your project. In your terminal or command prompt, navigate to your project directory and use the following commands:
+
+git add .
+git commit -m "Your commit message"
+This ensures that your changes are recorded and ready to be pushed to GitHub.
+
+Step 2: Push Changes to GitHub
+Push the committed changes to your GitHub repository:
+
+git push origin main  # or git push origin master if you're using the master branch
+This step updates your GitHub repository with the latest changes.
+
+Step 3: Run Build Script
+If your project requires a build script, run it to generate the updated build:
+
+npm run build
+This command is essential for projects with specific build requirements, such as those created with Create React App.
+
+Step 4: Deploy to GitHub Pages
+Now, deploy the updated build to GitHub Pages using the gh-pages package:
+
+npm run deploy
+This command pushes the contents of the build directory to the gh-pages branch on your GitHub repository.
