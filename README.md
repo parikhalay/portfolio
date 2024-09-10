@@ -13,21 +13,24 @@ Here are a few highlighted projects that demonstrate my skills and expertise:
 
 ### Project 1: Strategic Territory Control Simulation Game 
 _Description_: The Connected Graph War Simulator offers a strategic and dynamic gaming experience where players navigate a customizable world map, deploying armies, issuing various orders, and drawing cards to influence the course of the game. With a focus on strategic decision-making, diplomacy, and dynamic challenges, players must outmaneuver opponents to achieve global dominance in this thrilling war simulation.
-The Technologies used are Java, IntelliJ Idea, Junit Test,Javadocs, MVC architecture.
+Technologies used: Java, IntelliJ Idea, Junit Test,Javadocs, MVC architecture.
 
 ### Project 2: Emotion Recognition Software
 _Description_: Our project, an AI-Enhanced Student Engagement Monitoring System, revolutionizes the educational landscape by providing instructors with real-time insights into student engagement.Gone are the days of instructors navigating the darkness of student understanding; our system examines facial responses to distinguish between curiosity, comprehension, and confusion. The sleek design ensures immediate insights for instructors, categorizing students as engaged, neutral, bored, or other states.
-The Technologies used are Python, Pycharm, Pytorch , Deep Learning, Neural Networks.
+Technologies used: Python, Pycharm, Pytorch , Deep Learning, Neural Networks.
 ### Project 3: Cryptocurrency Web Application
 _Description_: The Cryptocurrency Market Integration project is a comprehensive initiative aimed at enhancing the user experience and functionality of our platform by seamlessly incorporating live market data from diverse cryptocurrency sources. Leveraging RESTful APIs and WebSocket technology, we have created a dynamic ecosystem that provides users with real-time market prices and trading data, enabling informed decision-making and a more engaging trading experience.
-The Technologies used are React, JavaScript, Html/CSS , API, VS Code, GIT. 
+Technologies used: React, JavaScript, Html/CSS , API, VS Code, GIT. 
+### Project 4: Dynamic Employment Portal System
+Description: The Online Job Portal project is designed to streamline the job application process by allowing users to register as either admins or job seekers. Admins can efficiently manage job postings, while job seekers can upload necessary documents and apply for jobs with ease. The system integrates secure user authentication and a dynamic backend, ensuring smooth operations. By leveraging XAMPP for database management and PHP for server-side logic, the platform delivers a user-friendly interface and reliable job application experience.
+Technologies used: HTML, PHP, CSS, JavaScript, XAMPP, GIT, VS Code.
 
 
 ## Skills
 
 - **Languages:** Java, JavaScript, C, C++, Python, HTML/CSS, Angular, SQL, PHP.
 - **Developer Tools:** VS Code, Eclipse, Jupyter Notebook, Android Studio, IntelliJ IDEA, Postman, Atom, Figma.
-- **Technologies/Frameworks:** Git, React, Node.js, Linux, MongoDB, Firebase, JUnit, Javadocs, ExpressJS, Docker
+- **Technologies/Frameworks:** Git, React, Node.js, MongoDB, Firebase, JUnit, Javadocs, ExpressJS, Docker
 
 ## Get In Touch
 
