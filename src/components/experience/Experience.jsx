@@ -10,7 +10,7 @@ const Experience = () => {
       <div className="container experiences__container">
       <article className='experience'>
           <div className='experience__head'>
-            <h3>Software Developer : April 2024 – June 2024</h3>
+            <h3>Software Developer : May 2024 – August 2024</h3>
             <h5>Iminoimi Technology Inc. (Montreal, Canada)</h5>
           </div>
 
@@ -18,19 +18,19 @@ const Experience = () => {
 
             <li>
             <AiFillCaretRight className='experience__list-icon' size={25} />
-            <p> Spearheaded development and maintenance of web applications using React, ensuring the delivery of responsive and
-            user-friendly interfaces.</p>
+            <p> Spearheaded the continuous maintenance and upgrades of existing web applications in React; improved overall system
+            stability and user interface, leading to a 20% decrease in reported technical issues from users.</p>
             </li>
 
             <li>
             <AiFillCaretRight className='experience__list-icon' size={25} />
-            <p>Expertly managed API life cycle, seamlessly integrating and optimizing endpoints to streamline data communication and
-            enhance operational efficiency.</p>
+            <p>Managed the API life cycle with Node.js, optimizing and integrating 5+ endpoints, which reduced data communication
+            latency by 8% and improved system efficiency.</p>
             </li>
             <li>
             <AiFillCaretRight className='experience__list-icon' size={25} />
-            <p>Coordinated in-depth research into diverse models and integration methodologies using Python, contributing to
-            heightened application functionality and performance.</p>
+            <p>Conducted research on 6+ models and integration techniques using Python, leading to a 11% enhancement in application
+            functionality and performance.</p>
             </li>
           </ul>
         </article>
@@ -45,19 +45,18 @@ const Experience = () => {
           <ul className='experience__list'>
             <li>
             <AiFillCaretRight className='experience__list-icon' size={25} />
-            <p>Orchestrated a team to revolutionize a client’s web platform, 
-            culminating in a 40% upsurge in mobile traffic and fortified
-            search engine rankings.</p>
+            <p>Orchestrated a team to revolutionize a client’s web platform, culminating in a 7% upsurge in mobile traffic and fortified
+            search engine rankings with React.</p>
             </li>
             <li>
             <AiFillCaretRight className='experience__list-icon' size={23} />
-            <p>Engaged in stakeholder collaboration to delineate
-             project requisites and guarantee alignment with objectives.</p>
+            <p>Developed and integrated API with Node.js, enhancing data retrieval and backend operations, reducing latency by 5%.</p>
             </li>
             <li>
             <AiFillCaretRight className='experience__list-icon' size={40}/>
-            <p>Spearheaded the successful implementation of React, seamlessly translating design concepts into highly maintainable
-            code, resulting in an exceptional User Experience (UX) and reducing frontend development time by 40%.</p>
+            <p>Managed and optimized customer data using MongoDB, boosting data retrieval efficiency and scalability, which
+contributed to a 20% improvement in overall platform performance.
+</p>
             </li>
           </ul>
         </article>
@@ -72,17 +71,19 @@ const Experience = () => {
           <ul className='experience__list'>
             <li>
             <AiFillCaretRight className='experience__list-icon'  size={20}/>
-            <p>Engineered a comprehensive sports news web interface offering the latest updates, upcoming events, and results.</p>
+            <p> Programmed a sports news web interface with JavaScript, delivering real-time updates, which increased user engagement by 15%.</p>
             </li>
             <li>
             <AiFillCaretRight className='experience__list-icon' size={30}/>
-            <p>Orchestrated seamless integration of requisite APIs within the team, meeting project criteria; achieved a 40% reduction
-            in manual data entry and saved 20+ hours per week.
+            <p>Implemented seamless integration of requisite API within the team, meeting project criteria; achieved a 11% reduction in
+manual data entry and saved 10+ hours per week.
+
             </p>
             </li>
             <li>
             <AiFillCaretRight className='experience__list-icon' size={20}/>
-            <p>Worked with different APIs to request for data and displayed by programming a webpage to give valuable information.</p>
+            <p>Utilized React and JavaScript programming to collaborate with various APIs, improving data display efficiency and
+            reducing load times by 20%.</p>
             </li>
             
             

@@ -1,92 +1,47 @@
-.image-section{
-    height: 100vh;
-    position: relative;
-}
-
-
-.image-section h5{
-    color: var(--color-light);
-    text-align: center;
-    margin-top: 8rem;
-}
-
-.image-section h2{
-    color: var(--color-primary);
-    margin-bottom: 3rem;
-    text-align: center;
-}
-
-.image-container{
-    width: 80%;
-    height: 80%;
-    margin: 0 auto;
-    border-radius: 5%;
-    background: var(--color-bg-variant);
-    position: relative;
-   
-}
-
-.inside-image-container{
-    width: 96%;
-    height: 100%;
-    margin: 0 auto;
-    position: relative;
+.graphic-design-container {
+    padding: 20px;
+    /* height: 100vh; */
+    display: flex;
+    flex-direction: column;
     overflow: hidden;
 }
 
-.images-div{
-    display: flex;
-  flex-wrap: nowrap; /* Prevent images from wrapping */
-  overflow-x: auto;
+.header {
+    text-align: center;
+    margin-top: 3rem;
 }
 
-#image-track > .image{
-    width: 60vmin;
-    height: 60vmin;
-    object-fit: cover;
-    object-position: 100% 50%;
-    
-    user-select: none;
-    -moz-user-select: none;
-    -webkit-user-drag: none;
-    -webkit-user-select: none;
-    -ms-user-select: none;
-  }
-  
-  #image-track{
-    display: flex;
-    gap: 4vmin;
-    position: absolute;
-    left: 40%;
-    top: 50%;
-    transform: translate(0%, -50%);
-  }
-
-  @media screen and (max-width: 768px) {
-    .image-container {
-        width: 70%;
-        height: 70%; /* Adjusted for smaller screens */
-    }
-
-    #image-track > .image {
-        width: 40vmin;
-        height: 40vmin;
-    }
+.header h5 {
+    color: var(--color-light);
+    margin-bottom: 1rem; /* Adjust for spacing */
 }
 
-@media screen and (max-width: 576px) {
-    .image-container {
-        width: 90%;
-        height: 70%; /* Adjusted for even smaller screens */
-    }
+.header h2 {
+    color: var(--color-primary);
+    margin-bottom: 3rem;
+}
 
-    #image-track > .image {
-        width: 80vw;
-        height: 80vw;
-        margin: 1rem 0; /* Added margin between images */
-    }
+.scroller {
+    overflow-x: hidden; /* Hide the scrollbar */
+    display: flex;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    white-space: nowrap; /* Prevent line breaks, keep images in one line */
+}
 
-    #image-track {
-        left: 30%;
-    }
+.background-container {
+    width: 100%;
+}
+
+.image-container {
+    display: flex; /* Arrange images in a row */
+    gap: 10px; /* Space between images */
+}
+
+.image {
+    max-height: 300px; /* Control image height */
+    max-width: 100%; /* Make sure images scale properly */
+    -webkit-user-drag: none; /* Disable drag on images */
+    user-drag: none; /* Disable drag on images */
 }
