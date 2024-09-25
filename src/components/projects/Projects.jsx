@@ -1,9 +1,9 @@
 import React from 'react'
 import './projects.css'
-import IMG1 from '../../assests/warzone.jpg'
-import IMG2 from '../../assests/emotion.jpg'
-import IMG3 from '../../assests/crypto.png'
-import IMG4 from '../../assests/job.png'
+import IMG1 from '../../assets/warzone.jpg'
+import IMG2 from '../../assets/emotion.jpg'
+import IMG3 from '../../assets/crypto.png'
+import IMG4 from '../../assets/job.png'
 
 
 const data = [

@@ -1,7 +1,7 @@
 import React from 'react'
 import './header.css'
 import CTA from './CTA'
-import ME from '../../assests/user.png'
+import ME from '../../assets/user.png'
 import HeaderSocials from './HeaderSocials'
 import Typed from "typed.js";
 import { useEffect, useRef } from "react";
