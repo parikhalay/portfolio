@@ -4,13 +4,28 @@ import IMG1 from '../../assets/warzone.jpg'
 import IMG2 from '../../assets/emotion.jpg'
 import IMG3 from '../../assets/crypto.png'
 import IMG4 from '../../assets/job.png'
-
+import IMG5 from '../../assets/mern.png'
+import IMG6 from '../../assets/eventify.jpeg'
 
 const data = [
   {
+    id:5,
+    image: IMG5,
+    title:'Mapify - MERN Stack Application',
+    github:'https://github.com/parikhalay/Mapify',
+    demo:'https://dribble.com'
+  },
+  {
+    id:6,
+    image: IMG6,
+    title:'Eventify - Event Management Application',
+    github:'https://github.com/parikhalay/Eventify',
+    demo:'https://dribble.com'
+  },
+  {
     id:1,
     image: IMG1,
-    title:'Strategic Territory Control Simulation Game.',
+    title:'ConquerX',
     github:'https://github.com/jenish-1990/Warzone-Game-APP-U12',
     demo:'https://dribble.com'
   },

@@ -18,19 +18,24 @@ const Experience = () => {
 
             <li>
             <AiFillCaretRight className='experience__list-icon' size={25} />
-            <p> Spearheaded the continuous maintenance and upgrades of existing web applications in React; improved overall system
-            stability and user interface, leading to a 20% decrease in reported technical issues from users.</p>
+            <p> Engineered responsive React components using Javascript, Redux for state management, and Tailwind CSS,
+            implementing real-time AI chat interactions that reduced bounce rate by 25% across all device types.</p>
             </li>
 
             <li>
             <AiFillCaretRight className='experience__list-icon' size={25} />
-            <p>Managed the API life cycle with Node.js, optimizing and integrating 5+ endpoints, which reduced data communication
-            latency by 8% and improved system efficiency.</p>
+            <p>Constructed microservices using Java Spring Boot and REST APIs, leveraging AWS Lambda and API Gateway for
+            serverless computing which improved transaction processing speed by 15%.</p>
             </li>
             <li>
             <AiFillCaretRight className='experience__list-icon' size={25} />
-            <p>Conducted research on 6+ models and integration techniques using Python, leading to a 11% enhancement in application
-            functionality and performance.</p>
+            <p>Enforced comprehensive testing strategy using Jest and JUnit with Mockito for backend services, surpassing more than
+            100 test cases and reducing production bugs while establishing automated CI/CD pipelines.</p>
+            </li>
+            <li>
+            <AiFillCaretRight className='experience__list-icon' size={25} />
+            <p>Incorporated complex SQL queries and stored procedures for data analytics and reporting, optimizing query performance
+            and achieving 15% reduction in report generation time across business intelligence dashboards.</p>
             </li>
           </ul>
         </article>
@@ -45,18 +50,22 @@ const Experience = () => {
           <ul className='experience__list'>
             <li>
             <AiFillCaretRight className='experience__list-icon' size={25} />
-            <p>Orchestrated a team to revolutionize a client’s web platform, culminating in a 7% upsurge in mobile traffic and fortified
-            search engine rankings with React.</p>
+            <p>Spearheaded the development of an interactive school website using React, React Router and Express.js which amplified
+            user engagement by 12% through an interactive UI using Material UI (MUI).</p>
             </li>
             <li>
-            <AiFillCaretRight className='experience__list-icon' size={23} />
-            <p>Developed and integrated API with Node.js, enhancing data retrieval and backend operations, reducing latency by 5%.</p>
+            <AiFillCaretRight className='experience__list-icon' size={25} />
+            <p>Developed and implemented authentication and validation mechanisms using OAuth 2.0, resulting in a 10% decrease in
+            unauthorized access incidents and strengthened overall system security.</p>
             </li>
             <li>
-            <AiFillCaretRight className='experience__list-icon' size={40}/>
-            <p>Managed and optimized customer data using MongoDB, boosting data retrieval efficiency and scalability, which
-contributed to a 20% improvement in overall platform performance.
-</p>
+            <AiFillCaretRight className='experience__list-icon' size={15}/>
+            <p>Implemented MongoDB for efficient data management, improving retrieval speeds and optimizing storage.</p>
+            </li>
+            <li>
+            <AiFillCaretRight className='experience__list-icon' size={25}/>
+            <p>Integrated GitHub for version control, facilitating collaborative development, while GitLab CI/CD integration
+            streamlined deployment processes, reducing deployment time by 10% which elevated team productivity.</p>
             </li>
           </ul>
         </article>
@@ -64,26 +73,22 @@ contributed to a 20% improvement in overall platform performance.
 
         <article className='experience'>
           <div className='experience__head'>
-            <h3>Web Application Developer : June 2022 – July 2022</h3>
+            <h3>Front End Developer Intern : June 2022 – July 2022</h3>
             <h5>Infolabz Pvt. Ltd. (Ahmedabad, India)</h5>
           </div>
 
           <ul className='experience__list'>
             <li>
-            <AiFillCaretRight className='experience__list-icon'  size={20}/>
-            <p> Programmed a sports news web interface with JavaScript, delivering real-time updates, which increased user engagement by 15%.</p>
+            <AiFillCaretRight className='experience__list-icon'  size={25}/>
+            <p> Contributed to a scalable sports news platform utilizing React.js, Redux, and Axios for RESTful API integration,
+            implementing responsive Material-UI components and PWA features, resulting in 2x user engagement.</p>
             </li>
             <li>
-            <AiFillCaretRight className='experience__list-icon' size={30}/>
-            <p>Implemented seamless integration of requisite API within the team, meeting project criteria; achieved a 11% reduction in
-manual data entry and saved 10+ hours per week.
+            <AiFillCaretRight className='experience__list-icon' size={25}/>
+            <p>Collaborated with a team of 5 developers to integrate third-party APIs, improving data synchronization and overall
+            performance while ensuring effective communication through Jira.
 
             </p>
-            </li>
-            <li>
-            <AiFillCaretRight className='experience__list-icon' size={20}/>
-            <p>Utilized React and JavaScript programming to collaborate with various APIs, improving data display efficiency and
-            reducing load times by 20%.</p>
             </li>
             
             
@@ -99,12 +104,12 @@ manual data entry and saved 10+ hours per week.
 
           <ul className='experience__list'>
             <li>
-            <AiFillCaretRight className='experience__list-icon ' size={30}/>
+            <AiFillCaretRight className='experience__list-icon ' size={25}/>
             <p> Implemented coding knowledge in design projects, resulting in highly efficient and technically optimized visual content,
                 positively impacting project scalability and performance </p>
             </li>
             <li>
-            <AiFillCaretRight className='experience__list-icon' size={35}/>
+            <AiFillCaretRight className='experience__list-icon' size={25}/>
             <p>Led the redesign of multiple digital interfaces, implementing responsive design techniques based on computer science
                 principles, resulting in a 30% increase in user engagement and enhanced user experience.</p>
             </li>
