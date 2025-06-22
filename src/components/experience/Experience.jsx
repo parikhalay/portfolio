@@ -1,6 +1,6 @@
 import React from 'react'
 import './experience.css'
-import {AiFillCaretRight} from 'react-icons/ai'
+import { AiFillCaretRight } from 'react-icons/ai'
 const Experience = () => {
   return (
     <section id='experience'>
@@ -8,39 +8,72 @@ const Experience = () => {
       <h2>Internship Experience</h2>
 
       <div className="container experiences__container">
-      <article className='experience'>
+
+        <article className='experience'>
           <div className='experience__head'>
-            <h3>Software Developer : May 2024 – August 2024</h3>
+            <h3>Software Developer : Feb 2025 – Present</h3>
+            <h5>BassiliChat Inc. (Montreal, Canada)</h5>
+          </div>
+
+          <ul className='experience__list'>
+
+            <li>
+              <AiFillCaretRight className='experience__list-icon' size={25} />
+              <p>Developed a full-stack conversational AI platform allowing users to compare responses from multiple LLMs (ChatGPT,
+                Claude, Gemini, Perplexity, DeepSeek, Mistral) side-by-side using React, Node.js, and PostgreSQL.</p>
+            </li>
+
+            <li>
+              <AiFillCaretRight className='experience__list-icon' size={25} />
+              <p>Configured RESTful APIs and PostgreSQL schema to persist entire multi-turn conversations, allowing users to revisit,
+                delete, or resume chat sessions through a query history panel with live search.</p>
+            </li>
+            <li>
+              <AiFillCaretRight className='experience__list-icon' size={25} />
+              <p>Elevated query response time by 2x through real-time streaming architecture, while developing features like response
+                summarization and social media integration.</p>
+            </li>
+            <li>
+              <AiFillCaretRight className='experience__list-icon' size={25} />
+              <p>Developed the cross-platform app in React Native with Expo, enabling real-time LLM comparisons (ChatGPT,
+                Claude, Gemini, etc.) with Markdown rendering, voice input, and a multi notepad panel, along with JWT token authentication.</p>
+            </li>
+          </ul>
+        </article>
+
+        <article className='experience'>
+          <div className='experience__head'>
+            <h3>Software Developer Intern : May 2024 – August 2024</h3>
             <h5>Iminoimi Technology Inc. (Montreal, Canada)</h5>
           </div>
 
           <ul className='experience__list'>
 
             <li>
-            <AiFillCaretRight className='experience__list-icon' size={25} />
-            <p> Engineered responsive React components using Javascript, Redux for state management, and Tailwind CSS,
-            implementing real-time AI chat interactions that reduced bounce rate by 25% across all device types.</p>
+              <AiFillCaretRight className='experience__list-icon' size={25} />
+              <p> Engineered responsive React components using Javascript, Redux for state management, and Tailwind CSS,
+                implementing real-time AI chat interactions that reduced bounce rate by 25% across all device types.</p>
             </li>
 
             <li>
-            <AiFillCaretRight className='experience__list-icon' size={25} />
-            <p>Constructed microservices using Java Spring Boot and REST APIs, leveraging AWS Lambda and API Gateway for
-            serverless computing which improved transaction processing speed by 15%.</p>
+              <AiFillCaretRight className='experience__list-icon' size={25} />
+              <p>Constructed microservices using Java Spring Boot and REST APIs, leveraging AWS Lambda and API Gateway for
+                serverless computing which improved transaction processing speed by 15%.</p>
             </li>
             <li>
-            <AiFillCaretRight className='experience__list-icon' size={25} />
-            <p>Enforced comprehensive testing strategy using Jest and JUnit with Mockito for backend services, surpassing more than
-            100 test cases and reducing production bugs while establishing automated CI/CD pipelines.</p>
+              <AiFillCaretRight className='experience__list-icon' size={25} />
+              <p>Enforced comprehensive testing strategy using Jest and JUnit with Mockito for backend services, surpassing more than
+                100 test cases and reducing production bugs while establishing automated CI/CD pipelines.</p>
             </li>
             <li>
-            <AiFillCaretRight className='experience__list-icon' size={25} />
-            <p>Incorporated complex SQL queries and stored procedures for data analytics and reporting, optimizing query performance
-            and achieving 15% reduction in report generation time across business intelligence dashboards.</p>
+              <AiFillCaretRight className='experience__list-icon' size={25} />
+              <p>Incorporated complex SQL queries and stored procedures for data analytics and reporting, optimizing query performance
+                and achieving 15% reduction in report generation time across business intelligence dashboards.</p>
             </li>
           </ul>
         </article>
-        
-        
+
+
         <article className='experience'>
           <div className='experience__head'>
             <h3>Full Stack Developer : Jan 2023 – April 2023</h3>
@@ -49,23 +82,23 @@ const Experience = () => {
 
           <ul className='experience__list'>
             <li>
-            <AiFillCaretRight className='experience__list-icon' size={25} />
-            <p>Spearheaded the development of an interactive school website using React, React Router and Express.js which amplified
-            user engagement by 12% through an interactive UI using Material UI (MUI).</p>
+              <AiFillCaretRight className='experience__list-icon' size={25} />
+              <p>Spearheaded the development of an interactive school website using React, React Router and Express.js which amplified
+                user engagement by 12% through an interactive UI using Material UI (MUI).</p>
             </li>
             <li>
-            <AiFillCaretRight className='experience__list-icon' size={25} />
-            <p>Developed and implemented authentication and validation mechanisms using OAuth 2.0, resulting in a 10% decrease in
-            unauthorized access incidents and strengthened overall system security.</p>
+              <AiFillCaretRight className='experience__list-icon' size={25} />
+              <p>Developed and implemented authentication and validation mechanisms using OAuth 2.0, resulting in a 10% decrease in
+                unauthorized access incidents and strengthened overall system security.</p>
             </li>
             <li>
-            <AiFillCaretRight className='experience__list-icon' size={15}/>
-            <p>Implemented MongoDB for efficient data management, improving retrieval speeds and optimizing storage.</p>
+              <AiFillCaretRight className='experience__list-icon' size={15} />
+              <p>Implemented MongoDB for efficient data management, improving retrieval speeds and optimizing storage.</p>
             </li>
             <li>
-            <AiFillCaretRight className='experience__list-icon' size={25}/>
-            <p>Integrated GitHub for version control, facilitating collaborative development, while GitLab CI/CD integration
-            streamlined deployment processes, reducing deployment time by 10% which elevated team productivity.</p>
+              <AiFillCaretRight className='experience__list-icon' size={25} />
+              <p>Integrated GitHub for version control, facilitating collaborative development, while GitLab CI/CD integration
+                streamlined deployment processes, reducing deployment time by 10% which elevated team productivity.</p>
             </li>
           </ul>
         </article>
@@ -79,19 +112,19 @@ const Experience = () => {
 
           <ul className='experience__list'>
             <li>
-            <AiFillCaretRight className='experience__list-icon'  size={25}/>
-            <p> Contributed to a scalable sports news platform utilizing React.js, Redux, and Axios for RESTful API integration,
-            implementing responsive Material-UI components and PWA features, resulting in 2x user engagement.</p>
+              <AiFillCaretRight className='experience__list-icon' size={25} />
+              <p> Contributed to a scalable sports news platform utilizing React.js, Redux, and Axios for RESTful API integration,
+                implementing responsive Material-UI components and PWA features, resulting in 2x user engagement.</p>
             </li>
             <li>
-            <AiFillCaretRight className='experience__list-icon' size={25}/>
-            <p>Collaborated with a team of 5 developers to integrate third-party APIs, improving data synchronization and overall
-            performance while ensuring effective communication through Jira.
+              <AiFillCaretRight className='experience__list-icon' size={25} />
+              <p>Collaborated with a team of 5 developers to integrate third-party APIs, improving data synchronization and overall
+                performance while ensuring effective communication through Jira.
 
-            </p>
+              </p>
             </li>
-            
-            
+
+
           </ul>
         </article>
         {/* END OF WEB DEVELOPMENT */}
@@ -104,16 +137,16 @@ const Experience = () => {
 
           <ul className='experience__list'>
             <li>
-            <AiFillCaretRight className='experience__list-icon ' size={25}/>
-            <p> Implemented coding knowledge in design projects, resulting in highly efficient and technically optimized visual content,
+              <AiFillCaretRight className='experience__list-icon ' size={25} />
+              <p> Implemented coding knowledge in design projects, resulting in highly efficient and technically optimized visual content,
                 positively impacting project scalability and performance </p>
             </li>
             <li>
-            <AiFillCaretRight className='experience__list-icon' size={25}/>
-            <p>Led the redesign of multiple digital interfaces, implementing responsive design techniques based on computer science
+              <AiFillCaretRight className='experience__list-icon' size={25} />
+              <p>Led the redesign of multiple digital interfaces, implementing responsive design techniques based on computer science
                 principles, resulting in a 30% increase in user engagement and enhanced user experience.</p>
             </li>
-            
+
           </ul>
         </article>
         {/* END OF GRAPHIC DESIGNER */}

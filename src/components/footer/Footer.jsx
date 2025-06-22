@@ -15,13 +15,11 @@ const Footer = () => {
       <li><a href='#experience'>Experience</a></li>
       <li><a href='#services'>Services</a></li>
       <li><a href='#portfolio'>Portfolio</a></li>
-      <li><a href='#testimonials'>Testimonials</a></li>
       <li><a href='#contact'>Contact</a></li>
     </ul>
 
     <div className="footer__socials">
       <a href='https://www.linkedin.com/in/parikhalay/'><AiOutlineLinkedin /></a>
-      <a href='https://www.instagram.com/alay_parikh/'><BsInstagram /></a>
     </div>
 
     <div className="footer__copyright">
