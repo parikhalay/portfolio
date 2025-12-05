@@ -1,76 +1,71 @@
-.experience__container{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 2rem;
+:root{
+  --card-bg: color-mix(in oklab, var(--color-bg-variant) 82%, #0b1220 18%);
+  --chip-surface: color-mix(in oklab, var(--color-bg-variant) 78%, #1a2444 22%);
+  --chip-surface-2: color-mix(in oklab, var(--color-bg-variant) 86%, #0e162b 14%);
+  --text-strong: #eaf0ff;
 }
 
-.experience__container > div {
-    background: var(--color-bg-variant);
-    padding: 2.4rem 5rem;
-    border-radius: 2rem;
-    border: 1px solid transparent;
-    transition: var(--transition);
+/* Title underline */
+.skills__title{ position:relative; color:var(--text-strong); }
+.skills__title::after{
+  content:""; position:absolute; left:50%; transform:translateX(-50%);
+  bottom:-0.6rem; width:120px; height:3px; border-radius:3px;
+  background: linear-gradient(90deg, transparent, var(--color-primary), transparent);
+  opacity:.9;
 }
 
-.experience__container > div:hover{
-    background: transparent;
-    border-color: var(--color-primary-variant);
-    cursor: default;
+/* Layout */
+.skills__grid{ display:grid; gap:2.2rem; grid-template-columns:1fr 1fr; }
+
+/* Card */
+.skills__card{
+  background: var(--card-bg);
+  border: 1px solid color-mix(in oklab, var(--color-primary) 12%, transparent);
+  border-radius: 24px; padding: 2.2rem; overflow:hidden;
+  box-shadow: 0 14px 34px -20px rgba(0,0,0,.6);
+  backdrop-filter: blur(8px) saturate(140%);
+  transition: transform .25s ease, box-shadow .25s ease, border-color .25s ease;
+}
+.skills__card:hover{ border-color: color-mix(in oklab, var(--color-primary) 26%, transparent); }
+
+/* Header */
+.skills__card-header{ display:flex; align-items:center; gap:.9rem; margin-bottom:1.2rem; }
+.skills__card-header h3{ margin:0; color:var(--text-strong); }
+.skills__badge{ width:42px; height:42px; border-radius:50%;
+  background: radial-gradient(circle at 30% 30%, #fff3 0, #fff0 55%),
+              color-mix(in oklab, var(--color-primary) 30%, transparent);
+  border:1px solid color-mix(in oklab, var(--color-primary) 20%, transparent);
 }
 
-.experience__container > div h3 {
-    text-align: center;
-    margin-bottom: 2rem;
-    color: var(--color-primary);
+/* Chips grid */
+.skills__chips{ display:grid; gap:.85rem 1rem; grid-template-columns: repeat(2, minmax(0,1fr)); }
 
+/* Chip (brand accent via --brand) */
+.skills__chip{
+  --brand: var(--color-primary); /* default fallback */
+  display:flex; align-items:center; gap:.7rem;
+  padding:.8rem 1rem; border-radius:999px;
+  background: linear-gradient(180deg, var(--chip-surface), var(--chip-surface-2));
+  border:1px solid color-mix(in oklab, var(--brand) 24%, transparent);
+  color:var(--text-strong);
+  transition: transform .18s ease, box-shadow .18s ease, border-color .18s ease, background .18s ease;
+  box-shadow: 0 10px 20px -18px rgba(0,0,0,.7);
+}
+.skills__chip:hover{
+  transform: translateY(-2px);
+  border-color: color-mix(in oklab, var(--brand) 36%, transparent);
+  box-shadow: 0 16px 26px -18px rgba(0,0,0,.75);
 }
 
-.experience__content {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    row-gap: 2rem;
-    column-gap: 2rem;
+/* Icon bubble (NO color override; uses brand) */
+.skills__chip-iconwrap{
+  width:28px; height:28px; border-radius:50%; display:grid; place-items:center;
+  background: radial-gradient(120% 120% at 30% 30%, #fff4 0, #fff0 55%), color-mix(in oklab, var(--brand) 26%, transparent);
+  border:1px solid color-mix(in oklab, var(--brand) 40%, transparent);
 }
+.skills__chip-icon{ font-size:1rem; color: var(--brand); }  /* ← brand color */
+.skills__chip-text{ font-weight:600; letter-spacing:.1px; }
 
-.experience__details {
-    display: flex;
-    gap: 1rem;
-}
-
-.experience__details-icon {
-    margin-top: 6px;
-    color:var(--color-primary)
-}
-
-.experience__icons-extra{
-    font-size: 1.4rem;
-}
-
-/* ============ MEDIA QUERIES (MEDIUM DEVICES) ==========*/
-
-@media screen and (max-width: 1024px) {
-    .experience__container{
-        grid-template-columns: 1fr;
-    }
-    .experience__container > div {
-        width: 80%;
-        padding: 2rem;
-        margin: 0 auto;
-    }
-    .experience__content{
-        padding: 1rem;
-    }
-}
-
-/* ============ MEDIA QUERIES (SMALL DEVICES) ==========*/
-
-@media screen and (max-width: 600px) {
-    .experience__container{
-        gap: 1rem;
-    }
-
-    .experience__container > div{
-        width: 100%;
-        padding: 2rem 1rem;
-    }
-}
+/* Responsive */
+@media (max-width:1024px){ .skills__grid{ grid-template-columns:1fr; } }
+@media (max-width:600px){ .skills__chips{ grid-template-columns:1fr; } .skills__card{ padding:1.6rem; } }

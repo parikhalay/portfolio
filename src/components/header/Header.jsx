@@ -23,9 +23,9 @@ const Header = () => {
     };
   }, []);
   return (
-    <header>
+    <header className="site-hero">
       <div className="container header__container">
-        <h5>Bonjour!</h5>
+        <h5>Helloo!</h5>
         {/* <h1>Alay Parikh</h1> */}
         <h1>I'm <span ref={el}></span></h1>
         <CTA />

@@ -1,52 +1,160 @@
-.portfolio__container{
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    gap: 2.5rem;
+/* Uses your theme tokens so it blends in */
+:root{
+  --card-surface: color-mix(in oklab, var(--color-bg-variant) 78%, #0b1220 22%);
+  --card-surface-2: color-mix(in oklab, var(--color-bg-variant) 86%, #0e162b 14%);
+  --ring: color-mix(in oklab, var(--color-primary) 45%, transparent);
+  --text-strong: #eaf0ff;
 }
 
-.portfolio__item {
-    background: var(--color-bg-variant);
-    padding: 1.2rem;
-    border-radius: 2rem;
-    border: 1px solid transparent;
-    transition: var(--transition);
+/* Title flourish */
+.proj__title{
+  position:relative; color: var(--text-strong);
+}
+.proj__title::after{
+  content:""; position:absolute; left:50%; transform:translateX(-50%);
+  bottom:-0.6rem; width:120px; height:3px; border-radius:3px;
+  background: linear-gradient(90deg, transparent, var(--color-primary), transparent);
+  opacity:.9;
 }
 
-.portfolio__item:hover {
-    border-color: var(--color-primary-variant);
-    background: transparent;
+/* Modern grid */
+.portfolio__grid{
+  display:grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 2rem;
 }
 
-.portfolio__item-image{
-    border-radius: 1.5rem;
-    overflow: hidden;
+/* 3D gradient-border card */
+.card3d{
+  position:relative;
+  perspective: 1000px; /* for subtle 3D */
+}
+.card3d__border{
+  position:absolute; inset: -1px;
+  border-radius: 20px;
+  background:
+    linear-gradient(135deg,
+      color-mix(in oklab, var(--color-primary) 40%, transparent),
+      transparent 40% 60%,
+      color-mix(in oklab, var(--color-primary) 18%, transparent)
+    );
+  filter: blur(6px);
+  opacity:.55;
+  transition: opacity .25s ease, transform .25s ease;
+}
+.card3d__inner{
+  position:relative;
+  background: linear-gradient(180deg, var(--card-surface), var(--card-surface-2));
+  border: 1px solid color-mix(in oklab, var(--color-primary) 16%, transparent);
+  border-radius: 20px;
+  overflow: hidden;
+  transform-style: preserve-3d;
+  box-shadow: 0 18px 40px -24px rgba(0,0,0,.7);
+  transition: transform .25s ease, box-shadow .25s ease, border-color .25s ease;
+}
+.card3d:hover .card3d__inner{
+  transform: translateY(-6px) rotateX(1deg) rotateY(.5deg);
+  box-shadow: 0 22px 50px -26px rgba(0,0,0,.8);
+  border-color: color-mix(in oklab, var(--color-primary) 26%, transparent);
+}
+.card3d:hover .card3d__border{
+  opacity:.9; transform: scale(1.01);
 }
 
-.portfolio__item h3{
-    margin: 1.2rem 0 2rem;
+/* Media with parallax zoom + shine */
+.card3d__media{
+  position:relative; overflow:hidden; border-bottom: 1px solid #0003;
+  aspect-ratio: 16/9; /* keeps height consistent */
+}
+.card3d__media img{
+  width:100%; height:100%; object-fit: cover;
+  transform: scale(1); transition: transform .5s ease;
+  display:block;
+}
+.card3d__media::after{
+  /* soft vignette */
+  content:""; position:absolute; inset:0;
+  background: radial-gradient(120% 120% at 70% 10%, transparent, #0002 60%, #0005 100%);
+  pointer-events:none;
+}
+.card3d:hover .card3d__media img{ transform: scale(1.08); }
+.card3d__shine{
+  content:""; position:absolute; top:-120%; left:-120%;
+  width:240%; height:240%;
+  transform: rotate(25deg);
+  background: linear-gradient(90deg, transparent 45%, rgba(255,255,255,.5) 52%, transparent 60%);
+  mix-blend-mode: screen; opacity:0; transition: opacity .25s ease, transform .7s ease;
+}
+.card3d:hover .card3d__shine{ opacity:.85; transform: rotate(25deg) translateX(18%); }
+
+/* Text */
+.card3d__title{
+  font-size: 1.05rem;
+  margin: 1rem 1rem .35rem;
+  color: var(--text-strong);
+}
+.card3d__blurb{
+  margin: 0 1rem .8rem;
+  color: color-mix(in oklab, var(--text-strong) 75%, #9aa4b5);
+  font-size: .95rem;
 }
 
-.portfolio__item-cta{
-    display: flex;
-    gap: 1rem;
-    margin-bottom: 1rem;
+/* Chips (brand accent via --brand) */
+.card3d__chips{
+  display:flex; flex-wrap: wrap; gap:.5rem .6rem;
+  padding: 0 1rem 1rem;
+}
+.chip{
+  --brand: var(--color-primary);
+  display:inline-flex; align-items:center; gap:.5rem;
+  padding:.45rem .7rem; border-radius:999px;
+  font-size:.85rem; font-weight:600;
+  color: var(--text-strong);
+  background: linear-gradient(180deg,
+    color-mix(in oklab, var(--card-surface) 82%, #32406a 18%),
+    color-mix(in oklab, var(--card-surface) 86%, #0e162b 14%)
+  );
+  border:1px solid color-mix(in oklab, var(--brand) 40%, transparent);
+}
+.chip__dot{
+  width:.55rem; height:.55rem; border-radius:50%;
+  background: var(--brand);
+  box-shadow: 0 0 0 3px color-mix(in oklab, var(--brand) 25%, transparent);
 }
 
-
-/* ============ MEDIA QUERIES (MEDIUM DEVICES) ==========*/
-
-@media screen and (max-width: 1024px) {
-    .portfolio__container{
-        grid-template-columns: 1fr 1fr;
-        gap: 1.2rem;
-    }
+/* CTA buttons — reuse your .btn but add two variants that fit theme */
+.card3d__cta{
+  display:flex; gap:.6rem; padding: 0 1rem 1.1rem; margin-top:.2rem;
 }
+.btn{
+  display:inline-flex; align-items:center; gap:.5rem;
+  font-weight:600; text-decoration:none;
+  border-radius:12px; padding:.7rem 1rem;
+  border:1px solid transparent; transition: all .2s ease;
+}
+.btn--ghost{
+  background: transparent;
+  border-color: color-mix(in oklab, var(--color-primary) 30%, transparent);
+  color: var(--text-strong);
+}
+.btn--ghost:hover{
+  border-color: color-mix(in oklab, var(--color-primary) 45%, transparent);
+  box-shadow: 0 0 0 6px color-mix(in oklab, var(--color-primary) 16%, transparent);
+}
+.btn--primary{
+  background: linear-gradient(180deg,
+    color-mix(in oklab, var(--color-primary) 28%, #fff0),
+    color-mix(in oklab, var(--color-primary) 40%, #0000)
+  );
+  color: #0b1220;
+  border-color: color-mix(in oklab, var(--color-primary) 55%, transparent);
+}
+.btn--primary:hover{ transform: translateY(-1px); }
 
-/* ============ MEDIA QUERIES (SMALL DEVICES) ==========*/
-
-@media screen and (max-width: 600px) {
-    .portfolio__container{
-        grid-template-columns: 1fr;
-        gap: 1rem;
-    }
+/* Responsive */
+@media (max-width: 1200px){
+  .portfolio__grid{ grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+@media (max-width: 680px){
+  .portfolio__grid{ grid-template-columns: 1fr; }
 }
