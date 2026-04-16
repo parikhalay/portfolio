@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.09e972fc.css",
-    "main.js": "/portfolio/static/js/main.5c28c082.js",
+    "main.js": "/portfolio/static/js/main.ba56d983.js",
     "static/media/emotion.jpg": "/portfolio/static/media/emotion.4716bd28bddb53c61d06.jpg",
     "static/media/user.png": "/portfolio/static/media/user.d064a65418ef738545ab.png",
     "static/media/img-16.png": "/portfolio/static/media/img-16.d48c14ac1d1841d8815e.png",
@@ -24,16 +24,16 @@
     "static/media/img-3.png": "/portfolio/static/media/img-3.8119b1b1a85d409fd51c.png",
     "static/media/img-10.png": "/portfolio/static/media/img-10.36e60bb180c2552e8909.png",
     "static/media/warzone.jpg": "/portfolio/static/media/warzone.40a75f27d6679bee9e8f.jpg",
-    "static/media/Resume.pdf": "/portfolio/static/media/Resume.4f48caf79fca1259d60c.pdf",
+    "static/media/Resume.pdf": "/portfolio/static/media/Resume.39e21258fb138f7bfd32.pdf",
     "static/media/crypto.png": "/portfolio/static/media/crypto.27a92f0c01bd61f1c0e3.png",
     "static/media/mern.png": "/portfolio/static/media/mern.60fac69221153880f7da.png",
     "static/media/eventify.jpeg": "/portfolio/static/media/eventify.1460af4440e3db422c0c.jpeg",
     "index.html": "/portfolio/index.html",
     "main.09e972fc.css.map": "/portfolio/static/css/main.09e972fc.css.map",
-    "main.5c28c082.js.map": "/portfolio/static/js/main.5c28c082.js.map"
+    "main.ba56d983.js.map": "/portfolio/static/js/main.ba56d983.js.map"
   },
   "entrypoints": [
     "static/css/main.09e972fc.css",
-    "static/js/main.5c28c082.js"
+    "static/js/main.ba56d983.js"
   ]
 }
