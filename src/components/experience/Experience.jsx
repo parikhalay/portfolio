@@ -21,7 +21,11 @@ const EXPERIENCES = [
     company: "Promenaid Inc. (Montreal, Canada)",
     icon: <LuLibrary />,
     highlights: [
-      "Built a Project Manager prototype system end-to-end, delivering a modular React, NestJS and PostgreSQL platform with secure APIs, reusable UI, authentication, and scalable data models."
+      " Led development of a rule-based QR-driven instruction generation platform. Created scalable RESTful APIs to dynamically generate order-specific installation workflows.",
+      "Architected a modular, data-driven system mapping product components to reusable instruction modules, enabling thousands of configurations with high scalability, maintainability, and decreased customer queries by 20%.",
+      "Created a full-stack project management portal integrating CRM and ERP APIs, enabling the operations team to manage 200+ high-value client accounts by providing quote versioning and single source of truth.",
+      "Engineered 12+ RESTful NestJS endpoints with JWT-based auth and role-based access control, reducing unauthorized access incidents to zero.",
+      "Designed 6 core PostgreSQL schemas and optimized slow queries using indexing and query planning."
     ],
     tech: ["React", "PostgreSQL", "NestJS", "JWT", "OAuth", "JavaScript"],
     badges: [
